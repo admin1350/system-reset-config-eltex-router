@@ -1,0 +1,33 @@
+# system-reset-config-eltex-router
+reset config exltex router
+
+# Cначала настраиваем правильную скорость на com порту потом уже подключаемся, далее включаем роутер, далее выполняем все что написано снизу.
+# после данных срок
+```
+Initialized I2C2 Controller.                                                    
+Initialized I2C3 Controller.                                                    
+Set default values for mtdids and mtdparts variables                            
+Temp: MAX6657 teature (int) 38 C                                                
+Temp: MAX6657 temperature (ext) 38 C                                            
+Temp: LM75 temperature          39 C                                            
+FPGA: FW Revision 8                                                             
+Autobooting in 5 seconds, enter to command line available now
+```
+### пишем `stop` и нажимаем enter и смотря на то что stop даже не  видно в консоли 
+
+### после того как прописали стоп, нужно написать несколько команд
+```
+BRCM.XLP204B1.u-boot# clear_mtd_config  
+Device 0: nand0... is now current device
+ 
+NAND erase: device 0 offset 0x0, size 0x1400000
+Erasing at 0x13c0000 -- 100% complete. Cleanmarker written at 0x13c0000.
+OK
+BRCM.XLP204B1.u-boot# reset
+```
+### после этого роутер перезагрузится и можно булет щайти в систему
+### login: `admin`
+### password: `password`
+
+### Источник: https://docs.eltex-co.ru/pages/viewpage.action?pageId=330039439
+### Источник: https://github.com/admin1350/system-reset-config-eltex-router
