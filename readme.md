@@ -1,5 +1,5 @@
 # system-reset-config-eltex-router
-reset config exltex router
+# reset config exltex router
 
 # Cначала настраиваем правильную скорость на com порту потом уже подключаемся, далее включаем роутер, далее выполняем все что написано снизу.
 # после данных срок
@@ -13,7 +13,7 @@ Temp: LM75 temperature          39 C
 FPGA: FW Revision 8                                                             
 Autobooting in 5 seconds, enter to command line available now
 ```
-### пишем `stop` и нажимаем enter и смотря на то что stop даже не  видно в консоли 
+### пишем `stop` и нажимаем enter и смотря на то что <u>stop</u> даже не  видно в консоли 
 
 ### после того как прописали стоп, нужно написать несколько команд
 ```
