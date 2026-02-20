@@ -34,5 +34,3 @@ BRCM.XLP204B1.u-boot# reset
 ### fork: https://gitlab.petrocollege.ru/admin1350/system-reset-config-eltex-router
 ### fork: https://git.reisber.space/admin1350/system-reset-config-eltex-router
 ### Источник: https://docs.eltex-co.ru/pages/viewpage.action?pageId=330039439
-
-test
