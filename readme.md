@@ -25,7 +25,7 @@ Erasing at 0x13c0000 -- 100% complete. Cleanmarker written at 0x13c0000.
 OK
 BRCM.XLP204B1.u-boot# reset
 ```
-### после этого роутер перезагрузится и можно булет щайти в систему
+### после этого роутер перезагрузится и можно будет зайти в систему
 ### login: `admin`
 ### password: `password`
 
